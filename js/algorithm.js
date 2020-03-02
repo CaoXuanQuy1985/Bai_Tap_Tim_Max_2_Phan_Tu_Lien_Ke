@@ -62,7 +62,7 @@ function recursion(array){
         } else {
             i++;
             if (i === array.length - 1) {
-                alert(max);
+                alert("Tích lớn nhất của 2 phần từ liền kề bằng: " + max + " tại chỉ số: [i =" + index_1 + " và i + 1 = " + index_2 + "]");
                 return 1;
             }
             return recursion(array);
